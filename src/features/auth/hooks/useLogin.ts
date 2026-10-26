@@ -10,8 +10,7 @@ export function useLogin() {
       loginWithRedirect({
         appState: { returnTo },
         authorizationParams: {
-          audience: env.auth0Audience,
-          connection: env.auth0Connection,
+          audience: env.auth0Audience
         },
       }),
     [loginWithRedirect],

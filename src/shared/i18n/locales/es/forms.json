@@ -1,0 +1,30 @@
+{
+  "lead": {
+    "fields": {
+      "firstName": "Nombre",
+      "lastName": "Apellido",
+      "companyName": "Nombre de la empresa",
+      "email": "Correo de contacto"
+    },
+    "actions": {
+      "submit": "Solicitar Demo"
+    },
+    "validationMessages": {
+      "firstName": {
+        "required": "Introduce tu nombre",
+        "maxLength": "El nombre no puede superar {{max}} caracteres"
+      },
+      "lastName": {
+        "required": "Introduce tu apellido",
+        "maxLength": "El apellido no puede superar {{max}} caracteres"
+      },
+      "companyName": {
+        "required": "Introduce el nombre de la empresa",
+        "maxLength": "El nombre de la empresa no puede superar {{max}} caracteres"
+      },
+      "email": {
+        "invalid": "Introduce un correo válido"
+      }
+    }
+  }
+}
